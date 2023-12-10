@@ -2,9 +2,136 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="resume__container container">
+          <div class="resume__main-info main-info">
+            <div class="main-info__left left">
+              <div class="left__profile">
+                <div class="left__photo">
+                  <img src="assets/anonim.png" alt="Avatar" />
+                </div>
+                <div class="left__name name">
+                  <h1 class="name__title">Yurii Hryshchenko</h1>
+                  <h2 class="name__subtitle">Front-end Developer</h2>
+                </div>
+              </div>
+
+              <div class="left__contact-info contact-info">
+                <h3 class="contact-info__title left-title">Contact Info</h3>
+                <ul>
+                  <li>
+                    <span class="icon"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i
+                    ></span>
+                    <span class="text">Ukraine, Dnipro</span>
+                  </li>
+                  <li>
+                    <span class="icon"
+                      ><i class="fa fa-envelope" aria-hidden="true"></i
+                    ></span>
+                    <a href="mailto:yuriy2000@icloud.com" class="text"
+                      >yuriy2000@icloud.com</a
+                    >
+                  </li>
+                  <li>
+                    <span class="icon"
+                      ><i class="fa fa-github" aria-hidden="true"></i
+                    ></span>
+                    <a
+                      href="https://github.com/YuriyHryshchenko"
+                      target="_blank"
+                      class="text"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="left__education education">
+                <h3 class="education__title left-title">Education</h3>
+                <ul>
+                  <li>
+                    <h5>2022-2023</h5>
+                    <h4>Master Degree in Software Engineering</h4>
+                    <h4>NTU "DP"</h4>
+                  </li>
+                  <li>
+                    <h5>2018-2022</h5>
+                    <h4>Bachelor Degree in Software Engineering</h4>
+                    <h4>NTU "DP"</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main-info__right right">
+              <div class="right__about about">
+                <h2 class="about__title right-title">About me</h2>
+                <p>
+						Passionate and dedicated Front-End Developer with a strong desire to become a well-rounded Full-Stack Developer.Committed to staying up-to-date with the latest industry trends and technologies, I continuously strive to expand my skill set and embrace new challenges.
+                </p>
+              </div>
+              <div class="right__experience experience">
+                <h2 class="experience__title right-title">Experience</h2>
+                <div class="experience__info info-experience">
+                  <div class="info-experience__item">
+                    <div class="info-experience__company">
+                      <h5>2020 - 2022</h5>
+                      <h5>КП "ДОКОД" ДОР</h5>
+                    </div>
+                    <div class="info-experience__position">
+                      <h4>System Administrator</h4>
+                      <p>
+                        During my work, I was maintaining servers functionality
+                        based on Windows 2012R2, helping with setting up
+                        employees` workstations, setting up communication lines
+                        between servers and employees. Also, configured VPN,
+                        backups, etc.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="info-experience__item">
+                    <div class="info-experience__company">
+                      <h5>2023 - Present</h5>
+                      <h5>SoftServe</h5>
+                    </div>
+                    <div class="info-experience__position">
+                      <h4>Intern Front-End Developer</h4>
+                      <p>
+                        Implementing user interface components based on tasks,
+                        writing unit tests for components, grooming with team
+                        new US and discussing implementations of these
+                        components with team on daily standups.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+					 <div class="right__interest interest">
+						<h2 class="interest__title right-title">Interest</h2>
+						<ul class="interest__list list">
+							<li class="list__item"><i class="fa fa-laptop" aria-hidden="true"></i>Programming</li>
+							<li class="list__item"><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+							<li class="list__item"><i class="fa fa-paw" aria-hidden="true"></i>Cats</li>
+						</ul>
+					 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
